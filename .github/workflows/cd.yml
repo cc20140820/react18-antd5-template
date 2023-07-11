@@ -1,4 +1,4 @@
-name: Build And Deploy Template
+name: Build And Deploy
 
 on:
   push:
