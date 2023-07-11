@@ -30,6 +30,6 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          GITHUB_TOKEN: ${{ secrets.REACT18_ANTD5_TEMPLATE }}
+          GITHUB_TOKEN: ${{ secrets.REACT18_ANTD5 }}
           BRANCH: gh-pages
           FOLDER: dist
