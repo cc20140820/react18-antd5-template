@@ -1,4 +1,4 @@
-name: Build And Deploy 1
+name: Build And Deploy
 
 on:
   push:
@@ -30,6 +30,6 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          ACCESS_TOKEN: ${{ secrets.REACT18_ANTD5_TEMPLATE }}
+          GITHUB_TOKEN: ${{ secrets.REACT18_ANTD5_TEMPLATE }}
           BRANCH: master
           FOLDER: dist
