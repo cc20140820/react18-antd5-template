@@ -6,6 +6,7 @@ import stylelint from 'vite-plugin-stylelint'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:'/react18-antd5-template',
   plugins: [
     rollupReplace({
       preventAssignment: true,
